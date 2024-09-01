@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "clarify"
+version = "0.1.0"
+description = ""
+authors = ["iliab <ilia.bukin1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.14"
+jupyter = "^1.0.0"
+streamlit = "^1.37.1"
+langchain-community = "^0.2.12"
+openai = "^1.42.0"
+google-api-python-client = "^2.142.0"
+html2text = "^2024.2.26"
+tiktoken = "^0.7.0"
+langchain-google-community = "^1.0.8"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.23"
+duckduckgo-search = "^6.2.11"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
